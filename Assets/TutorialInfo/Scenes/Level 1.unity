@@ -153,7 +153,7 @@ Transform:
   - {fileID: 330585546}
   - {fileID: 872220545}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0.1426504, z: 0}
+  m_LocalEulerAnglesHint: {x: 359.9604, y: -9.379164e-13, z: 0.000000002740819}
 --- !u!320 &319846397
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -587,6 +587,7 @@ GameObject:
   - component: {fileID: 872220545}
   - component: {fileID: 872220547}
   - component: {fileID: 872220546}
+  - component: {fileID: 872220548}
   m_Layer: 0
   m_Name: PlayerShip
   m_TagString: Untagged
@@ -658,6 +659,18 @@ MonoBehaviour:
   yClapmRange: 10
   controllRollFactor: 20
   controllPitchFactor: 20
+--- !u!114 &872220548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872220544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46335a63bd9e8bd44bd328f036b8fae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1102039689
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,14 +788,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1378421475}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 262.9, y: 41, z: 158.7}
+  m_LocalRotation: {x: -0.19832957, y: 0.8690389, z: 0.06862776, w: 0.44802573}
+  m_LocalPosition: {x: 189.44, y: 54.7, z: 325.58322}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2034345749}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -17.277, y: 128.095, z: -17.254}
 --- !u!1 &1528594239
 GameObject:
   m_ObjectHideFlags: 0
@@ -814,7 +827,9 @@ PlayableDirector:
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings: []
+  m_SceneBindings:
+  - key: {fileID: 7725973294333120061, guid: 9962de4df608f834689a193c0652a606, type: 2}
+    value: {fileID: 319846398}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1528594241
