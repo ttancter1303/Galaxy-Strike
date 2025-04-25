@@ -163,7 +163,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2173676412847865528}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.32903004, z: 0, w: 0.9443195}
+  m_LocalRotation: {x: 0, y: -0.3290314, z: -0, w: -0.94431895}
   m_LocalPosition: {x: 38.1, y: 33.8, z: 35.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -172,7 +172,7 @@ Transform:
   - {fileID: 5823097992786954057}
   - {fileID: 5461481088442832056}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 359.9604, y: -9.379164e-13, z: 0.000000002740819}
+  m_LocalEulerAnglesHint: {x: 360, y: 38.42, z: 0}
 --- !u!320 &5131362393971433545
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 7276553997495337368}
   - component: {fileID: 8118689584807956060}
   - component: {fileID: 1188187126828412467}
-  - component: {fileID: 3370158832303593648}
+  - component: {fileID: 2839129545359560018}
   m_Layer: 0
   m_Name: PlayerShip
   m_TagString: Untagged
@@ -336,7 +336,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 13.51, y: 3.9, z: 5.9}
   m_Center: {x: 0, y: 5.52, z: 0}
@@ -367,7 +367,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3370158832303593648
+--- !u!114 &2839129545359560018
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -379,6 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1b72e7b99f13fb4eb71c35ea3163b66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroyedVFX: {fileID: 7187890659239001878, guid: 20ed0f98245bd494cbbbd06e0ccc620a, type: 3}
 --- !u!1 &3867092995932921541
 GameObject:
   m_ObjectHideFlags: 0
